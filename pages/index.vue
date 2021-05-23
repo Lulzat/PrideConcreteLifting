@@ -167,7 +167,7 @@
 
         <div class="flex flex-wrap -mx-4 -mt-4 -mb-10 space-y-6 sm:-m-4 md:space-y-0">
           <div class="flex p-4 lg:w-1/3 ">
-            <div class="flex-grow pl-6">
+            <div class="flex-grow">
               <div class="w-full mb-2">
                 <img alt="Foam Being Injected Under Concrete" style="height:400px;"
                   class="object-cover object-center w-full h-64 rounded-sm lg:h-auto"
