@@ -55,6 +55,9 @@ export default {
           {set: '@fortawesome/free-solid-svg-icons',
           icons: ['faIdCard']
           },
+          {set: '@fortawesome/free-solid-svg-icons',
+          icons: ['faCheck']
+          },
           {set: '@fortawesome/free-brands-svg-icons',
           icons: ['faFacebookSquare']
           },

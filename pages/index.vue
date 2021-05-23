@@ -22,7 +22,7 @@
         <div class="flex justify-center">
           <div class="flex flex-col mt-8 md:flex-row">
             <a href="#contact"><button
-                class="group inline-flex items-center px-5 py-3 mt-2 text-white transition-all duration-500 ease-in-out transform bg-black rounded-lg focus:ring-2 ring-offset-current ring-offset-2 hover:bg-blue-900 focus:outline-none">
+                class="group inline-flex items-center px-4 py-3 mt-2 text-white transition-all duration-500 ease-in-out transform bg-black rounded-lg focus:ring-2 ring-offset-current ring-offset-2 hover:bg-blue-900 focus:outline-none">
                 <fa
                   class="group-hover:filter group-hover:transform group-hover:drop-shadow-lg group-hover:scale-150 transition-all duration-500 ease-in-out w-6 h-6"
                   :icon="['fas','paper-plane']" />
@@ -39,12 +39,13 @@
 
     <!------ WHAT IS PRIDE CONCRETE ABOUT, WELL LET ME TELL YOU... ------->
     <section class="mb-12 body-font">
-      <div class="container px-5 py-10 mx-auto lg:px-24 ">
-        
+      <div class="container px-4 py-10 mx-auto lg:px-24 ">
+
         <!-- ABOUT SECTION -->
         <div class="container">
           <div class="flex flex-col w-full mb-2 text-left px-4">
-            <img class="mx-auto md:w-1/3 mb-10" src="~/assets/images/logo.png" alt="Pride Concrete Lifting - We Take Pride in our Work and our Experience.">
+            <img class="mx-auto md:w-1/3 mb-10" src="~/assets/images/logo.png"
+              alt="Pride Concrete Lifting - We Take Pride in our Work and our Experience.">
             <h1 id="about"
               class="mb-2 text-3xl font-black tracking-tighter text-black text-center lg:text-5xl md:text-4xl">
               Professional Concrete Lifting and Stabilization Using Time-Tested Industry Standards
@@ -67,9 +68,9 @@
           </div>
         </div>
         <!------------------->
-        
+
         <!-- SERVICES SECTION -->
-        <div class="container md:px-5 lg:pt-4 lg:py-4">
+        <div class="container md:px-4 lg:pt-4 lg:py-4">
           <div class="flex flex-col lg:flex-row">
             <div class="w-full px-4 mt-4 text-lg leading-snug tracking-tight text-gray-400 lg:px-0">
               <h2 id="services" class="mt-4 mb-4 text-3xl font-bold text-black ">We Work Where the Concrete Is</h2>
@@ -101,11 +102,42 @@
               </div>
             </section>
           </div>
+
+          <div class="container flex flex-col items-center py-4 mx-auto md:flex-row px-4">
+            <div
+              class="flex flex-col items-start w-full pt-0 mb-16 text-left lg:flex-grow md:w-1/2 xl:mr-10 md:pr-10 md:mb-0 ">
+              <h1 class="mb-8 text-2xl font-bold tracking-tighter text-left text-black lg:text-2xl title-font"> 
+              The Cost Effective Way to Level Surfaces and Void-Fill
+              </h1>
+              <p class="mb-8 text-base leading-relaxed text-left text-gray-400 ">
+              Our methods of lifting and void-filling are less invasive and more cost-efficient than tearing out and replacing. No waiting on concrete to dry or anything to set up - when we leave, the area is immediately ready for use.
+              </p>
+              <p class="flex items-center mb-2 text-gray-600 "><span
+                  class="inline-flex items-center justify-center flex-shrink-0 w-6 h-6 mr-2 rounded-full">
+                  <fa class="w-6 h-6" :icon="['fas','check']" />
+                </span> Driveways, Sidewalks, Patios, and Pool Decks.</p>
+              <p class="flex items-center mb-2 text-gray-600 ">
+                <span class="inline-flex items-center justify-center flex-shrink-0 w-6 h-6 mr-2 rounded-full">
+                  <fa class="w-6 h-6" :icon="['fas','check']" />
+                </span> Highways, Streets, Bridges.
+              </p>
+              <p class="flex items-center mb-6 text-gray-600">
+                <span class="inline-flex items-center justify-center flex-shrink-0 w-6 h-6 mr-2 rounded-full">
+                  <fa class="w-6 h-6" :icon="['fas','check']" />
+                </span> Airport Runways, Racetracks, Bulkheads and Seawalls.
+              </p>
+            </div>
+            <div class="w-full lg:w-5/6 lg:max-w-lg md:w-1/2">
+              <img class="object-cover object-center shadow-md" alt="Cross Section Showing Void Filled"
+                src="~/assets/images/work/cross_section_concrete_and_foam.png">
+            </div>
+          </div>
+
         </div>
         <!---------------------->
 
         <!-- ADDITIONAL INFO SECTION -->
-        <div class="container flex flex-col items-center px-5 py-8 mx-auto">
+        <div class="container flex flex-col items-center px-4 py-8 mx-auto">
           <div class="flex flex-col w-full mb-6 text-left lg:text-center">
             <h1 class="mb-2 text-3xl font-black tracking-tighter text-black lg:text-5xl md:text-4xl">
               Stagnant Water Got You Itching?
@@ -140,7 +172,7 @@
           </div>
         </div>
         <!----------------------------->
-        
+
         <!-- HOW IT WORKS SECTION -->
         <div class="flex flex-col w-full mb-6 text-left lg:text-center">
           <div class="flex flex-col w-full mb-12 text-left lg:text-center">
@@ -220,7 +252,7 @@
     <!-- CONTACT US AND LET US GIVE YOU A FREE ESTIMATE -->
     <section>
       <div class="bg-black items-center py-6">
-        
+
         <div class="flex flex-col w-full mb-4 text-left p-4 lg:text-center">
           <h1 id="contact" class="mb-2 text-3xl font-bold text-white tracking-tighter lg:text-5xl md:text-4xl">
             Send Us A Message.
@@ -234,13 +266,13 @@
             <fa :icon="['fas','phone']" /> 817-888-6254.
           </p>
         </div>
-        
+
         <form name="PrideForm" id="myForm" method="post" data-netlify="true" enctype="application/x-www-form-urlencoded"
           @submit.prevent="checkForm"
           class="flex flex-col w-full p-10 px-8 pt-6 mx-auto my-6 mb-4 transition duration-500 ease-in-out transform bg-white border md:rounded-lg lg:w-1/2">
           <input type="hidden" name="form-name" value="PrideForm" />
           <div class="flex flex-wrap mb-6 -mx-3">
-            
+
             <!-- NAME -->
             <div class="w-full px-3 mb-6 md:w-1/2 md:mb-0">
               <label class="text-base leading-7 text-gray-500" for="grid-title">Name</label>
@@ -248,7 +280,7 @@
                 class="w-full px-4 py-2 mt-2 text-base text-black bg-blue-900 transition duration-500 ease-in-out transform border-transparent rounded-sm bg-blueGray-100 focus:border-blueGray-500 focus:bg-white focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2"
                 id="grid-title" type="text" name="name" v-model="formData.name" placeholder="John Smith">
             </div>
-            
+
             <!-- PHONE NUMBER -->
             <div class="w-full px-3 mb-6 md:w-1/2 md:mb-0">
               <label class="text-base leading-7 text-gray-500" for="grid-url">Phone Number</label>
@@ -257,9 +289,9 @@
                 id="grid-url" type="tel" name="telephone" v-model="formData.telephone" placeholder="(123) 456-7890">
             </div>
           </div>
-          
+
           <div class="flex flex-wrap mb-2 -mx-3">
-            
+
             <!-- EMAIL -->
             <div class="w-full px-3 mb-6 md:w-1/2 md:mb-0">
               <label class="text-base leading-7 text-gray-500" for="email"> Email <span
@@ -271,7 +303,7 @@
             </div>
 
           </div>
-          
+
           <div class="flex flex-wrap mb-6 -mx-3">
             <!-- MESSAGE -->
             <div class="w-full px-3">
@@ -283,9 +315,9 @@
                 required=""></textarea>
             </div>
           </div>
-          
+
           <div class="flex items-center w-full pt-4">
-            
+
             <!-- ERRORS! -->
             <p v-if="errors.length" class="text-red p-3">
               <b>Please correct the following error(s):</b>
@@ -308,7 +340,7 @@
 
       </div>
     </section>
-    
+
   </div>
 </template>
 
