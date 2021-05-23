@@ -44,6 +44,7 @@
         <!-- ABOUT SECTION -->
         <div class="container">
           <div class="flex flex-col w-full mb-2 text-left px-4">
+            <img class="mx-auto md:w-1/3 mb-10" src="~/assets/images/logo.png" alt="Pride Concrete Lifting - We Take Pride in our Work and our Experience.">
             <h1 id="about"
               class="mb-2 text-3xl font-black tracking-tighter text-black text-center lg:text-5xl md:text-4xl">
               Professional Concrete Lifting and Stabilization Using Time-Tested Industry Standards
