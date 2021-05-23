@@ -393,7 +393,7 @@
 
 <style scoped>
   .outer-container {
-    background-image: linear-gradient(rgb(0, 0, 0, 0.75), rgba(255, 255, 255, 0)), url("~assets/images/mega-highway-pride-concrete-can-lift.jpg");
+    background-image: linear-gradient(rgb(0, 0, 0, 0.75), rgba(255, 255, 255, 0)), url("~assets/images/mega-highway-pride-concrete-can-lift-everything.jpg");
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
