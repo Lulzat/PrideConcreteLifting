@@ -56,7 +56,7 @@
         class="flex items-center justify-center font-bold text-lg p-4 hover:bg-blue-800 text-white "><span class="mr-2">
           <fa class="w-6 h-6" :icon="['fas','tools']" />
         </span>
-        <span><a href="#service">Services</a></span></span>
+        <span><a href="#services">Services</a></span></span>
       <span @click="isOpen = false"
         class="flex items-center justify-center font-bold text-lg p-4 hover:bg-blue-800 text-white "><span class="mr-2">
           <fa class="w-6 h-6" :icon="['fas','project-diagram']" />
@@ -78,7 +78,7 @@
             <fa :icon="['fas','phone']" /> <strong>Give us a Call</strong>:<br /> 817-888-6254</a></li>
       </ul>
     </aside>
-    
+
   </header>
 </template>
 
