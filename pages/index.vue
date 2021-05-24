@@ -406,10 +406,10 @@
             .catch(error => console.log(error))
             .then(document.getElementById("myForm").innerHTML = `
             <div class="flex flex-col w-full mb-4 text-left p-4 lg:text-center">
-              <h1 id="contact" class="mb-2 text-3xl font-bold text-white tracking-tighter lg:text-5xl md:text-4xl">
+              <h1 id="contact" class="mb-2 text-3xl font-bold text-black tracking-tighter lg:text-5xl md:text-4xl">
                 <fa class="w-6 h-6" :icon="['fas','tosatellite-dishols']" />  Contact Form Submitted!
               </h1>
-              <p class="mt-4 text-lg tracking-wide text-white">
+              <p class="mt-4 text-lg tracking-wide text-black">
                 Thank you for reaching out to us - we will contact you as soon as we are able.
               </p>
             </div>
