@@ -215,7 +215,7 @@
             </div>
           </div>
           <div class="flex p-4 lg:w-1/3 ">
-            <div class="flex-grow pl-6">
+            <div class="flex-grow">
               <div class="w-full mb-2">
                 <img alt="Foam Expanding Underneath Concrete" style="height:400px;"
                   class="object-cover object-center w-full h-64 rounded-sm lg:h-auto"
@@ -229,7 +229,7 @@
             </div>
           </div>
           <div class="flex p-4 lg:w-1/3 ">
-            <div class="flex-grow pl-6">
+            <div class="flex-grow">
               <div class="w-full mb-2">
                 <img alt="Foam Causing Concrete to Lift" style="height:400px;"
                   class="object-cover object-center w-full h-64 rounded-sm lg:h-auto"

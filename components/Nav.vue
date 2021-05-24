@@ -67,7 +67,7 @@
           <fa class="w-6 h-6" :icon="['fas','paper-plane']" />
         </span>
         <span><a href="#contact">Contact</a></span></span>
-      <ul @click="isOpen = false" class="flex flex-col p-4">
+      <ul @click="isOpen = false" class="flex flex-col p-6">
         <li><a class="items-center py-3 mt-2 text-base font-normal tracking-tight text-white lg:mx-8 md:mt-0 md:ml-4"
             href="#contact">
             <fa :icon="['fas','envelope']" /> <strong>Send us an Email</strong>:<br />
