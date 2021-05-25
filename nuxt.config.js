@@ -85,6 +85,9 @@ export default {
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
+    ['@nuxtjs/google-analytics', {
+      id: process.env.GOOGLE_ANALYTICS_ID || ''
+    }]
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios

@@ -4,7 +4,7 @@
     <!------ WELCOME TO THE PRIDE CONCRETE LIFTING WEBSITE - STAY A WHILE, GIVE US A CALL, 
     SEND US A MESSAGE, LET US KNOW HOW WE CAN HELP YOU. THANK YOU! ------->
 
-    <section class="h-screen bg-center body-font bg-patterns outer-container">
+    <section class="flex items-center h-screen bg-center body-font bg-patterns outer-container">
       <div class="container px-8 pt-32 md:pt-40 pb-24 mx-auto lg:px-4 ">
 
         <div class="flex flex-col w-full mb-8 text-center">
