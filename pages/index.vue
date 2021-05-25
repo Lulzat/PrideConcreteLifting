@@ -262,8 +262,8 @@
           </p>
           <p class="mb-8 md:w-1/2 md:px-10 mt-4 mx-auto text-lg leading-snug tracking-tight text-gray-400">
             Fill out the form below to get in contact with us! We can also be reached via email at:
-            <span class="text-xl text-blue-300"> <fa :icon="['fas','envelope']" /> contact@prideconcretelifting.com</span> or via telephone at:
-            <span class="text-xl text-blue-300"> <a href="tel:817-888-6254"><fa :icon="['fas','phone']" /> 817-888-6254</a></span>.
+            <span class="md:text-xl text-blue-300"> <fa :icon="['fas','envelope']" /> contact@prideconcretelifting.com</span> or via telephone at:
+            <span class="md:text-xl text-blue-300"> <a href="tel:817-888-6254"><fa :icon="['fas','phone']" /> 817-888-6254</a></span>.
           </p>
         </div>
 
