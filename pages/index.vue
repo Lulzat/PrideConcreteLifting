@@ -50,8 +50,8 @@
               class="mb-2 text-3xl font-black tracking-tighter text-black text-center lg:text-5xl md:text-4xl">
               Professional Concrete Lifting and Stabilization Using Time-Tested Industry Standards
             </h1>
-            <p class="mt-4 text-lg leading-snug tracking-tight text-gray-400">
-              We've been lifting concrete for a long time, and with that experience we're able to employ tried and true
+            <p class="mt-4 text-lg leading-snug tracking-tight text-gray-500">
+              We've been Lifting and Leveling concrete for a long time, and with that experience we're able to employ tried and true
               methods alongside today's more efficient technology to get the job done quicker, safer, and cheaper - with
               no loss of the quality that we pride ourselves on.
             </p>
@@ -59,11 +59,11 @@
           <div class="flex flex-col md:flex-row h-auto">
             <div class="mb-8 md:w-1/2 md:px-4">
               <h2 class="mt-4 mb-4 text-3xl font-bold text-black ">We Turn This...</h2>
-              <img class="shadow-md" src="~/assets/images/work/fallen_curb.png" alt="Fallen Sidewalk Curb">
+              <img class="shadow-md" src="~/assets/images/work/fallen_curb.jpg" alt="Fallen Sidewalk Curb">
             </div>
             <div class="mb-8 md:w-1/2 md:px-4">
               <h2 class="mt-4 mb-4 text-3xl font-bold text-black ">Into This...</h2>
-              <img class="shadow-md" src="~/assets/images/work/raised_curb.png" alt="Sidewalk Curb Now Raised">
+              <img class="shadow-md" src="~/assets/images/work/raised_curb.jpg" alt="Sidewalk Curb Now Raised">
             </div>
           </div>
         </div>
@@ -72,7 +72,7 @@
         <!-- SERVICES SECTION -->
         <div class="container md:px-4 lg:pt-4 lg:py-4">
           <div class="flex flex-col lg:flex-row">
-            <div class="w-full px-4 mt-4 text-lg leading-snug tracking-tight text-gray-400 lg:px-0">
+            <div class="w-full px-4 mt-4 text-lg leading-snug tracking-tight text-gray-500 lg:px-0">
               <h2 id="services" class="mt-4 mb-4 text-3xl font-bold text-black ">We Work Where the Concrete Is</h2>
               <p class="pb-6">
                 Concrete is everywhere - Your home is built on top of it, your driveway was poured with it, the roads
@@ -106,11 +106,13 @@
           <div class="container flex flex-col items-center py-4 mx-auto md:flex-row px-4">
             <div
               class="flex flex-col items-start w-full pt-0 mb-16 text-left lg:flex-grow md:w-1/2 xl:mr-10 md:pr-10 md:mb-0 ">
-              <h1 class="mb-8 text-2xl font-bold tracking-tighter text-left text-black lg:text-2xl title-font"> 
-              The Cost Effective Way to Level Surfaces and Void-Fill
+              <h1 class="mb-8 text-2xl font-bold tracking-tighter text-left text-black lg:text-2xl title-font">
+                The Cost Effective Way to Level Surfaces and Void-Fill
               </h1>
-              <p class="mb-8 text-base leading-relaxed text-left text-gray-400 ">
-              Our methods of lifting and void-filling are less invasive and more cost-efficient than tearing out and replacing. No waiting on concrete to dry or anything to set up - when we leave, the area is immediately ready for use.
+              <p class="mb-8 text-base leading-relaxed text-left text-gray-500 ">
+                Our methods of lifting and void-filling are less invasive and more cost-efficient than tearing out and
+                replacing. No waiting on concrete to dry or anything to set up - when we leave, the area is immediately
+                ready for use.
               </p>
               <p class="flex items-center mb-2 text-gray-600 "><span
                   class="inline-flex items-center justify-center flex-shrink-0 w-6 h-6 mr-2 rounded-full">
@@ -129,7 +131,7 @@
             </div>
             <div class="w-full lg:w-5/6 lg:max-w-lg md:w-1/2">
               <img class="object-cover object-center shadow-md" alt="Cross Section Showing Void Filled"
-                src="~/assets/images/work/cross_section_concrete_and_foam.png">
+                src="~/assets/images/work/cross_section_concrete_and_foam.jpg">
             </div>
           </div>
 
@@ -142,7 +144,7 @@
             <h1 class="mb-2 text-3xl font-black tracking-tighter text-black lg:text-5xl md:text-4xl">
               Stagnant Water Got You Itching?
             </h1>
-            <p class="mt-4 text-lg leading-snug tracking-tight text-gray-400">
+            <p class="mt-4 text-lg leading-snug tracking-tight text-gray-500">
               Over time, as concrete settles water can form "bird baths" and not drain properly. While the birds may
               enjoy a place to swim, these standing puddles of water are the perfect breeding ground for mosquitoes
               and a chance for disease to spread.
@@ -151,22 +153,22 @@
           <div class="flex flex-col md:flex-row h-auto">
             <div class="mb-8 md:w-1/2 md:px-4">
               <h2 class="mt-4 mb-4 text-3xl font-bold text-black text-center">Standing Water Before</h2>
-              <img class="shadow-md" src="~/assets/images/work/alley_before.png" alt="Standing Water in an Alleyway">
+              <img class="shadow-md" src="~/assets/images/work/alley_before.jpg" alt="Standing Water in an Alleyway">
             </div>
             <div class="mb-8 md:w-1/2 md:px-4">
               <h2 class="mt-4 mb-4 text-3xl font-bold text-black text-center">Water Draining After</h2>
-              <img class="shadow-md" src="~/assets/images/work/alley_after.png"
+              <img class="shadow-md" src="~/assets/images/work/alley_after.jpg"
                 alt="Water-Free Alleyway After Concrete Lifting">
             </div>
           </div>
           <div class="flex flex-col md:flex-row h-auto">
             <div class="mb-8 md:w-1/2 md:px-4">
               <h2 class="mt-4 mb-4 text-3xl font-bold text-black text-center">Non-Draining Water</h2>
-              <img class="shadow-md" src="~/assets/images/work/alley2_before.png" alt="Non-Draining Water in an Alley">
+              <img class="shadow-md" src="~/assets/images/work/alley2_before.jpg" alt="Non-Draining Water in an Alley">
             </div>
             <div class="mb-8 md:w-1/2 md:px-4">
               <h2 class="mt-4 mb-4 text-3xl font-bold text-black text-center">Water Draining After Leveling</h2>
-              <img class="shadow-md" src="~/assets/images/work/alley2_after.png"
+              <img class="shadow-md" src="~/assets/images/work/alley2_after.jpg"
                 alt="Water Flowing Properly After Being Raised">
             </div>
           </div>
@@ -179,7 +181,7 @@
             <h1 id="how-it-works" class="mb-2 text-3xl font-black tracking-tighter text-black lg:text-5xl md:text-4xl">
               Want to See How It Works?
             </h1>
-            <h2 class="mt-4 text-2xl tracking-widest text-gray-400">
+            <h2 class="mt-4 text-2xl tracking-widest text-gray-500">
               Minimally Invasive. Quick. Effective.
             </h2>
           </div>
@@ -187,7 +189,7 @@
             <a class="mb-8 md:w-1/2 md:px-4" href="https://www.ncfigeo.com/"><img class=""
                 src="~/assets/images/NCFI/NCFI GEo DB R.png" alt="NCFI Geotechnical Logo">
             </a>
-            <p class="mb-8 md:w-1/2 md:px-4 mt-4 text-lg leading-snug tracking-tight text-gray-400">
+            <p class="mb-8 md:w-1/2 md:px-4 mt-4 text-lg leading-snug tracking-tight text-gray-500">
               Pride Concrete Lifting proudly uses NCFI Geotechnical Polyurethane Formulations in all of our jobs. To
               achieve the goal of lifting pavement, asphalt, or any other concrete material foundation - we inject a
               polyurethane formulation underneath the material that fills any voided space and as the formulation sets
@@ -208,7 +210,7 @@
               </div>
               <h1 class="mb-2 text-2xl font-semibold font-black title-font">
                 Foam is Injected</h1>
-              <p class="text-lg leading-snug tracking-tight text-gray-400">
+              <p class="text-lg leading-snug tracking-tight text-gray-500">
                 After assessing the material to be raised, a 1/2" or 5/8" hole is drilled to precise depths to gain
                 access to the foundation of the affected area.
                 .</p>
@@ -223,7 +225,7 @@
               </div>
               <h1 class="mb-2 text-2xl font-semibold font-black title-font">
                 Expansion of Foam</h1>
-              <p class="text-lg leading-snug tracking-tight text-gray-400">
+              <p class="text-lg leading-snug tracking-tight text-gray-500">
                 A polyurethane foam is then carefully injected into the subgrade, that expands and lifts the material
                 back to proper grade. </p>
             </div>
@@ -237,7 +239,7 @@
               </div>
               <h1 class="mb-2 text-2xl font-semibold font-black title-font">
                 Lifting and Stabilization</h1>
-              <p class="text-lg leading-snug tracking-tight text-gray-400">
+              <p class="text-lg leading-snug tracking-tight text-gray-500">
                 Once level has been achieved, the foam will then solidify and all voids underneath will be filled,
                 preventing future sinkage or damage to the concrete.
               </p>
@@ -260,10 +262,12 @@
           <p class="mt-4 text-lg tracking-wide text-white">
             Let Us Know How we Can Help You
           </p>
-          <p class="mb-8 md:w-1/2 md:px-10 mt-4 mx-auto text-lg leading-snug tracking-tight text-gray-400">
+          <p class="mb-8 md:w-1/2 md:px-10 mt-4 mx-auto text-lg leading-snug tracking-tight text-gray-500">
             Fill out the form below to get in contact with us! We can also be reached via email at:
-            <span class="md:text-xl text-blue-300"> <fa :icon="['fas','envelope']" /> contact@prideconcretelifting.com</span> or via telephone at:
-            <span class="md:text-xl text-blue-300"> <a href="tel:817-888-6254"><fa :icon="['fas','phone']" /> 817-888-6254</a></span>.
+            <span class="md:text-xl text-blue-300">
+              <fa :icon="['fas','envelope']" /> contact@prideconcretelifting.com</span> or via telephone at:
+            <span class="md:text-xl text-blue-300"> <a href="tel:817-888-6254">
+                <fa :icon="['fas','phone']" /> 817-888-6254</a></span>.
           </p>
         </div>
 
@@ -327,8 +331,14 @@
             </p>
 
             <!-- SUBMIT -->
-            <button type="submit" name="button"
-              class="w-full py-3 font-semibold text-white transition duration-500 ease-in-out transform bg-blue-900 border-blue-600 rounded-sm text-base focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:bg-blue-800 ">
+            <button type="submit" name="button" :click="
+              this.$ga.event({
+                eventCategory: 'Contact Form Submitted',
+                eventAction: 'click',
+                eventLabel: 'Success',
+                eventValue: 1
+              })" 
+            class="w-full py-3 font-semibold text-white transition duration-500 ease-in-out transform bg-blue-900 border-blue-600 rounded-sm text-base focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:bg-blue-800 ">
               Submit
               <fa
                 class="group-hover:filter group-hover:transform group-hover:drop-shadow-lg group-hover:scale-150 transition-all duration-500 ease-in-out w-6 h-6"
@@ -388,14 +398,6 @@
         return formData;
       },
       checkForm: function (e) {
-        
-        this.$ga.event({
-          eventCategory: 'Contact Form Submitted',
-          eventAction: 'click',
-          eventLabel: 'Success',
-          eventValue: 1
-        })
-
         if (this.formData.email && this.formData.message) {
           const axiosConfig = {
             header: {
@@ -415,7 +417,7 @@
             .then(document.getElementById("myForm").innerHTML = `
             <div class="flex flex-col w-full mb-4 text-left p-4 lg:text-center">
               <h1 id="contact" class="mb-2 text-3xl font-bold text-black tracking-tighter lg:text-5xl md:text-4xl">
-                <fa class="w-6 h-6" :icon="['fas','satellite-dish']" />  Contact Form Submitted!
+                <fa :icon="['fas','satellite-dish']" />  Contact Form Submitted!
               </h1>
               <p class="mt-4 text-lg tracking-wide text-black">
                 Thank you for reaching out to us - we will contact you as soon as we are able.

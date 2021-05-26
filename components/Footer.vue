@@ -4,15 +4,15 @@
         <div class="flex flex-col flex-wrap justify-center p-5 md:flex-row">
             <nav class="flex flex-wrap items-center justify-center w-full mx-auto mb-6 text-base nprd">
                 <a href="#services"
-                    class="px-4 py-1 mr-1 text-gray-500 transition duration-500 ease-in-out transform rounded-md text-base focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 ">Services</a>
+                    class="px-4 py-2 mr-1 text-gray-500 transition duration-500 ease-in-out transform rounded-md text-base hover:shadow-outline hover:outline-none hover:ring-2 ring-offset-current ring-offset-2 ">Services</a>
                 <a href="#about"
-                    class="px-4 py-1 mr-1 text-gray-500 transition duration-500 ease-in-out transform rounded-md text-base focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 ">About
+                    class="px-4 py-2 mr-1 text-gray-500 transition duration-500 ease-in-out transform rounded-md text-base hover:shadow-outline hover:outline-none hover:ring-2 ring-offset-current ring-offset-2 ">About
                     Us</a>
                 <a href="#how-it-works"
-                    class="px-4 py-1 mr-1 text-gray-500 transition duration-500 ease-in-out transform rounded-md text-base focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 ">How
+                    class="px-4 py-2 mr-1 text-gray-500 transition duration-500 ease-in-out transform rounded-md text-base hover:shadow-outline hover:outline-none hover:ring-2 ring-offset-current ring-offset-2 ">How
                     It Works</a>
                 <a href="#contact"
-                    class="px-4 py-1 mr-1 text-gray-500 transition duration-500 ease-in-out transform rounded-md text-base focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 ">Contact</a>
+                    class="px-4 py-2 mr-1 text-gray-500 transition duration-500 ease-in-out transform rounded-md text-base hover:shadow-outline hover:outline-none hover:ring-2 ring-offset-current ring-offset-2 ">Contact</a>
             </nav>
             <span class="inline-flex justify-center w-full mx-auto mt-2 mr-2 sm:ml-auto sm:mt-0">
                 <a href="https://www.facebook.com/wenmill21/" class="mx-4 text-gray-500 hover:text-blue-500">
