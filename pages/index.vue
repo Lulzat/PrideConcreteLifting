@@ -262,7 +262,7 @@
           <p class="mt-4 text-lg tracking-wide text-white">
             Let Us Know How we Can Help You
           </p>
-          <p class="mb-8 md:w-1/2 md:px-10 mt-4 mx-auto text-lg leading-snug tracking-tight text-gray-500">
+          <p class="mb-8 md:w-1/2 md:px-10 mt-4 mx-auto text-lg leading-snug tracking-tight text-gray-300">
             Fill out the form below to get in contact with us! We can also be reached via email at:
             <span class="md:text-xl text-blue-300">
               <fa :icon="['fas','envelope']" /> contact@prideconcretelifting.com</span> or via telephone at:
