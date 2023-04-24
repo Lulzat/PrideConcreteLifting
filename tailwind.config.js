@@ -9,7 +9,10 @@ module.exports = {
     filter:['responsive','hover','focus','group-hover'],
     dropShadow:['responsive','hover','focus','group-hover'],
     scale:['responsive','hover','focus','group-hover'],
-    
+    extend: {
+      display: ["group-hover"],
+      visibility: ["group-hover"],
+  },    
   },
   plugins: [],
 }

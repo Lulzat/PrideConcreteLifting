@@ -1,23 +1,32 @@
 <template>
   <header :class="{ 'navbar--hidden': !showNavbar, 'scrolled': scrolled }"
     class="navbar w-screen flex items-center fixed p-3 z-50 flex body-font justify-between md:justify-between p-1">
-    <Logo />
-    
+    <PrimaryLogo />
+
     <ul class="hidden md:flex justify-center">
-      <li>
-        <a class="items-center py-3 mt-2 text-base font-normal tracking-tight transition duration-500 ease-in-out transform text-white lg:mx-8 md:mt-0 md:mr-4 hover:text-blue-500"
-          href="#services">Services</a></li>
-      <li>
-        <a class="items-center py-3 mt-2 text-base font-normal tracking-tight transition duration-500 ease-in-out transform text-white lg:mx-8 md:mt-0 md:mr-4 hover:text-blue-500"
+      <li class="dropdown group inline-block relative whitespace-nowrap md:mr-4">
+        <span class="transition duration-500 ease-in-out group-hover:bg-white group-hover:text-blue-500 text-white text-lg font-medium p-8 py-3 mt-2 md:mt-0 inline-flex items-center cursor-default">
+          Areas of Expertise
+          <svg class="fill-current ml-1 h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/> </svg>
+        </span>
+        <ul class="dropdown-menu absolute w-full invisible opacity-0 text-blue-500 text-center group-hover:bg-white group-hover:visible group-hover:opacity-100 group-hover:transition-all delay-150 duration-500 ease-in-out">
+          <li class=""><a class="bg-white text-lg font-medium hover:bg-blue-500 hover:text-white py-2 px-4 block whitespace-no-wrap" href="/Driveways">Driveways</a></li>
+          <li class=""><a class="bg-white text-lg font-medium hover:bg-blue-500 hover:text-white py-2 px-4 block whitespace-no-wrap" href="/Pooldecks">Pooldecks</a></li>
+          <li class=""><a class="bg-white text-lg font-medium hover:bg-blue-500 hover:text-white py-2 px-4 block whitespace-no-wrap" href="/Sidewalks">Sidewalks</a></li>
+          <li class=""><a class="bg-white text-lg font-medium hover:bg-blue-500 hover:text-white py-2 px-4 block whitespace-no-wrap" href="/Roadways">Roadways</a></li>
+        </ul>
+      </li>
+      <li class="flex justify-center whitespace-nowrap md:mr-4">
+        <a class="items-center p-8 py-3 mt-2 text-lg font-medium tracking-tight transition duration-500 ease-in-out transform text-white md:mt-0 hover:text-blue-500 hover:bg-white"
           href="#how-it-works">How It Works</a></li>
-      <li>
-        <a class="items-center py-3 mt-2 text-base font-normal tracking-tight transition duration-500 ease-in-out transform text-white lg:mx-8 md:mt-0 md:mr-4 hover:text-blue-500"
+      <li class="flex justify-center whitespace-nowrap md:mr-4">
+        <a class="items-center p-8 py-3 mt-2 text-lg font-medium tracking-tight transition duration-500 ease-in-out transform text-white md:mt-0 hover:text-blue-500 hover:bg-white"
           href="#about">About Us</a></li>
-      <li>
-        <a class="items-center py-3 mt-2 text-base font-normal tracking-tight transition duration-500 ease-in-out transform text-white lg:mx-8 md:mt-0 md:mr-4 hover:text-blue-500"
+      <li class="flex justify-center whitespace-nowrap md:mr-4">
+        <a class="items-center p-8 py-3 mt-2 text-lg font-medium tracking-tight transition duration-500 ease-in-out transform text-white md:mt-0 hover:text-blue-500 hover:bg-white"
           href="#contact">Contact</a></li>
     </ul>
-    
+
     <ul class="hidden md:flex flex-col">
       <li><a class="items-center py-3 mt-2 text-base font-normal tracking-tight text-white lg:mx-8 md:mt-0 md:ml-4"
           href="#contact">
@@ -42,40 +51,40 @@
         <div @click="isOpen = false" class="absolute inset-0 bg-black opacity-50" tabindex="0"></div>
       </div>
     </transition>
-    
+
     <aside
       class="transform flex flex-col justify-evenly h-screen top-0 left-0 w-64 bg-black fixed h-full overflow-auto ease-in-out transition-all duration-300 z-30"
       :class="isOpen ? 'translate-x-0' : '-translate-x-full'">
-      <Logo />
+      <span class="mt-2"><PrimaryLogo /></span>
       <span @click="isOpen = false"
-        class="flex items-center justify-center font-bold text-lg p-4 hover:bg-blue-800 text-white"><span class="mr-2">
-          <fa class="w-6 h-6" :icon="['fas','id-card']" />
-        </span>
-        <span><a href="#about">About Us</a></span></span>
+        class="flex mt-4 pt-4 pb-4 align-center font-bold text-lg hover:bg-blue-800 text-white ">
+       <a href="#how-it-works" class="ml-6 w-full"><fa class="w-6 h-6 mr-2" :icon="['fas','project-diagram']" />
+        How It Works</a></span>
       <span @click="isOpen = false"
-        class="flex items-center justify-center font-bold text-lg p-4 hover:bg-blue-800 text-white "><span class="mr-2">
-          <fa class="w-6 h-6" :icon="['fas','tools']" />
-        </span>
-        <span><a href="#services">Services</a></span></span>
+        class="flex pt-4 pb-4 align-center font-bold text-lg hover:bg-blue-800 text-white ">
+        <a href="#about" class="ml-6 w-full"><fa class="w-6 h-6 mr-2" :icon="['fas','id-card']" />
+        About Us</a></span>
       <span @click="isOpen = false"
-        class="flex items-center justify-center font-bold text-lg p-4 hover:bg-blue-800 text-white "><span class="mr-2">
-          <fa class="w-6 h-6" :icon="['fas','project-diagram']" />
-        </span>
-        <span><a href="#how-it-works">How It Works</a></span></span>
+        class="flex pt-4 pb-4 align-center font-bold text-lg hover:bg-blue-800 text-white ">
+        <a href="#contact" class="ml-6 w-full"><fa class="w-6 h-6 mr-2" :icon="['fas','paper-plane']" />
+        Contact</a></span>
       <span @click="isOpen = false"
-        class="flex items-center justify-center font-bold text-lg p-4 hover:bg-blue-800 text-white "><span class="mr-2">
-          <fa class="w-6 h-6" :icon="['fas','paper-plane']" />
+        class="flex pt-4 pb-4 flex-col justify-center font-bold text-lg hover:bg-blue-800 text-white ">
+        <span><fa class="w-6 h-6 ml-6 mr-2" :icon="['fas','tools']" />Areas of Expertise</span>
+        <ul class="w-full opacity-100 text-white group-hover:bg-blue-800 group-hover:opacity-100 transition duration-500 ease-in-out">
+          <li class=""><a class="text-lg font-medium hover:bg-white hover:text-blue-800 py-2 px-4 block whitespace-no-wrap" href="#"><span class="ml-7">Driveways</span></a></li>
+          <li class=""><a class="text-lg font-medium hover:bg-white hover:text-blue-800 py-2 px-4 block whitespace-no-wrap" href="#"><span class="ml-7">Pooldecks</span></a></li>
+          <li class=""><a class="text-lg font-medium hover:bg-white hover:text-blue-800 py-2 px-4 block whitespace-no-wrap" href="#"><span class="ml-7">Sidewalks</span></a></li>
+          <li class=""><a class="text-lg font-medium hover:bg-white hover:text-blue-800 py-2 px-4 block whitespace-no-wrap" href="#"><span class="ml-7">Roadways</span></a></li>
+        </ul>
         </span>
-        <span><a href="#contact">Contact</a></span></span>
       <ul @click="isOpen = false" class="flex flex-col p-4">
         <li><a class="items-center py-3 mt-2 text-base font-normal tracking-tight text-white lg:mx-8 md:mt-0 md:ml-4"
             href="#contact">
-            <fa :icon="['fas','envelope']" /> <strong>Send us an Email</strong>:<br />
             contact@prideconcretelifting.com</a>
         </li>
         <li><a class="items-center py-3 mt-2 text-base font-normal tracking-tight text-white lg:mx-8 md:mt-0 md:ml-4"
-            href="tel:817-888-6254">
-            <fa :icon="['fas','phone']" /> <strong>Give us a Call</strong>:<br /> 817-888-6254</a></li>
+            href="tel:817-888-6254">817-888-6254</a></li>
       </ul>
     </aside>
 
@@ -143,6 +152,12 @@
     box-shadow: none;
     transform: translate3d(0, -100%, 0);
     transition: all 400ms;
+  }
+
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.5);
+    clip-path: inset(0px -10px -10px -10px);
   }
 
   /* remove blue outline */

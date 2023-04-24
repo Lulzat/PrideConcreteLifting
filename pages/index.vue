@@ -22,13 +22,13 @@
         <div class="flex justify-center">
           <div class="flex flex-col mt-8 md:flex-row">
             <a href="#contact"><button
-                class="group inline-flex items-center px-4 py-3 mt-2 text-white transition-all duration-500 ease-in-out transform bg-black rounded-lg focus:ring-2 ring-offset-current ring-offset-2 hover:bg-blue-900 focus:outline-none">
+                class="group butt inline-flex items-center px-4 py-3 mt-2 text-white transition-all duration-500 ease-in-out transform bg-black rounded-lg focus:ring-2 ring-offset-current ring-offset-2 hover:bg-blue-900 focus:outline-none">
                 <fa
                   class="group-hover:filter group-hover:transform group-hover:drop-shadow-lg group-hover:scale-150 transition-all duration-500 ease-in-out w-6 h-6"
                   :icon="['fas','paper-plane']" />
                 <span class="flex flex-col items-start ml-4 leading-none">
                   <span class="mb-1 text-xs text-blueGray-400">FREE ESTIMATES</span>
-                  <span class="font-medium text-white title-font">Leave Us A Message</span>
+                  <span class="font-medium text-white title-font">Send Us A Message</span>
                 </span>
               </button></a>
           </div>
@@ -331,7 +331,7 @@
             </p>
 
             <!-- SUBMIT -->
-            <button type="submit" name="button" class="w-full py-3 font-semibold text-white transition duration-500 ease-in-out transform bg-blue-900 border-blue-600 rounded-sm text-base focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:bg-blue-800 ">
+            <button type="submit" name="button" class="w-full butt py-3 font-semibold text-white transition duration-500 ease-in-out transform bg-blue-900 border-blue-600 rounded-sm text-base focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:bg-blue-800 ">
               Submit
               <fa
                 class="group-hover:filter group-hover:transform group-hover:drop-shadow-lg group-hover:scale-150 transition-all duration-500 ease-in-out w-6 h-6"
