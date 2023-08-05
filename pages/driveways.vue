@@ -29,7 +29,7 @@
       <div class="flex flex-col lg:flex-row">
         <div class="w-full mx-auto text-lg leading-snug tracking-tight text-gray-500 lg:px-0 lg:w-3/4">
           <h2 class="mt-4 mb-4 text-3xl font-bold text-black ">Ready to Raise your Curb Appeal?</h2>
-          <p class="pb-6">Contact us today to schedule a free estimate and discuss options for your driveway repair. Pride Concrete Lifting brings you over 20 years of experience in the Foam Lifting Industry providing the Care, Knowledge, and Pricing our customers deserve.</p>
+          <p class="pb-6">Contact us today to schedule a free estimate and discuss options for your driveway repair. Pride Concrete Lifting brings you over 25 years of experience in the Foam Lifting Industry providing the Care, Knowledge, and Pricing our customers deserve.</p>
         </div>
       </div>
     </div>

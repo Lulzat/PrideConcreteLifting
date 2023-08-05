@@ -59,7 +59,7 @@
           </div>
 
           <h2 class="mt-4 mb-4 text-3xl font-bold text-black ">Call to Schedule a Free Estimate</h2>
-          <p class="pb-6">If you're having problems with your Pool, Patio, or Decking, we at Pride Concrete Lifting have over 20 years of experience in Concrete Lifting and Stabilization and are here to help. Don't let sinking concrete sink your Summer.</p>
+          <p class="pb-6">If you're having problems with your Pool, Patio, or Decking, we at Pride Concrete Lifting have over 25 years of experience in Concrete Lifting and Stabilization and are here to help. Don't let sinking concrete sink your Summer.</p>
         </div>
       </div>
     </div>

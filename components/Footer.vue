@@ -24,7 +24,7 @@
         
         <div class="w-full px-8 mt-4 border-t rounded-b-lg bg-blueGray-100">
             <div class="container inline-flex flex-col flex-wrap items-center px-5 py-6 mx-auto sm:flex-row">
-                <p class="mx-auto text-sm text-center text-gray-700 sm:text-left ">Pride Concrete Lifting © 2021 </p>
+                <p class="mx-auto text-sm text-center text-gray-700 sm:text-left ">Pride Concrete Lifting © 2023 </p>
             </div>
         </div>
     

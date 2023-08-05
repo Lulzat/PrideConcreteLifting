@@ -11,7 +11,7 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Concrete Lifting and Repair and Soil Stabilization for Driveways Repair, Pool Deck Lifting with foam injection in Dallas & Fort Worth.' }
+      { hid: 'description', name: 'description', content: 'Over 25 Years Experience in Concrete Lifting - Repairing & Lifting Driveways, Pool Decks, Sidewalks, and Roadways with foam injection in Dallas & Fort Worth.' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }

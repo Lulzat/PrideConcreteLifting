@@ -15,7 +15,7 @@
           </h1>
           <p class="mx-auto text-lg leading-snug tracking-tight text-white lg:w-1/2">
             We take pride in being able to deliver superior results in our concrete lifting and soil stabilization work.
-            Our team has over 20 years of experience in the concrete lifting industry, and we bring all of that
+            Our team has over 25 years of experience in the concrete lifting industry, and we bring all of that
             knowledge with us when we come to do the job.</p>
         </div>
 

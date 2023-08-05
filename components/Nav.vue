@@ -12,8 +12,8 @@
         <ul class="dropdown-menu absolute w-full invisible opacity-0 text-blue-500 text-center group-hover:bg-white group-hover:visible group-hover:opacity-100 group-hover:transition-all delay-150 duration-500 ease-in-out">
           <li class=""><a class="bg-white text-lg font-medium hover:bg-blue-500 hover:text-white py-2 px-4 block whitespace-no-wrap" href="/Driveways">Driveways</a></li>
           <li class=""><a class="bg-white text-lg font-medium hover:bg-blue-500 hover:text-white py-2 px-4 block whitespace-no-wrap" href="/Pooldecks">Pooldecks</a></li>
-          <li class=""><a class="bg-white text-lg font-medium hover:bg-blue-500 hover:text-white py-2 px-4 block whitespace-no-wrap" href="/Sidewalks">Sidewalks</a></li>
-          <li class=""><a class="bg-white text-lg font-medium hover:bg-blue-500 hover:text-white py-2 px-4 block whitespace-no-wrap" href="/Roadways">Roadways</a></li>
+          <!--<li class=""><a class="bg-white text-lg font-medium hover:bg-blue-500 hover:text-white py-2 px-4 block whitespace-no-wrap" href="/Sidewalks">Sidewalks</a></li>
+          <li class=""><a class="bg-white text-lg font-medium hover:bg-blue-500 hover:text-white py-2 px-4 block whitespace-no-wrap" href="/Roadways">Roadways</a></li>-->
         </ul>
       </li>
       <li class="flex justify-center whitespace-nowrap md:mr-4">
@@ -72,10 +72,10 @@
         class="flex pt-4 pb-4 flex-col justify-center font-bold text-lg hover:bg-blue-800 text-white ">
         <span><fa class="w-6 h-6 ml-6 mr-2" :icon="['fas','tools']" />Areas of Expertise</span>
         <ul class="w-full opacity-100 text-white group-hover:bg-blue-800 group-hover:opacity-100 transition duration-500 ease-in-out">
-          <li class=""><a class="text-lg font-medium hover:bg-white hover:text-blue-800 py-2 px-4 block whitespace-no-wrap" href="#"><span class="ml-7">Driveways</span></a></li>
-          <li class=""><a class="text-lg font-medium hover:bg-white hover:text-blue-800 py-2 px-4 block whitespace-no-wrap" href="#"><span class="ml-7">Pooldecks</span></a></li>
-          <li class=""><a class="text-lg font-medium hover:bg-white hover:text-blue-800 py-2 px-4 block whitespace-no-wrap" href="#"><span class="ml-7">Sidewalks</span></a></li>
-          <li class=""><a class="text-lg font-medium hover:bg-white hover:text-blue-800 py-2 px-4 block whitespace-no-wrap" href="#"><span class="ml-7">Roadways</span></a></li>
+          <li class=""><a class="text-lg font-medium hover:bg-white hover:text-blue-800 py-2 px-4 block whitespace-no-wrap" href="/Driveways"><span class="ml-7">Driveways</span></a></li>
+          <li class=""><a class="text-lg font-medium hover:bg-white hover:text-blue-800 py-2 px-4 block whitespace-no-wrap" href="/Pooldecks"><span class="ml-7">Pooldecks</span></a></li>
+          <!--<li class=""><a class="text-lg font-medium hover:bg-white hover:text-blue-800 py-2 px-4 block whitespace-no-wrap" href="#"><span class="ml-7">Sidewalks</span></a></li>
+          <li class=""><a class="text-lg font-medium hover:bg-white hover:text-blue-800 py-2 px-4 block whitespace-no-wrap" href="#"><span class="ml-7">Roadways</span></a></li>-->
         </ul>
         </span>
       <ul @click="isOpen = false" class="flex flex-col p-4">
