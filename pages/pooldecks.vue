@@ -78,9 +78,9 @@
           <p class="mb-8 md:w-1/2 md:px-10 mt-4 mx-auto text-lg leading-snug tracking-tight text-gray-300">
             Fill out the form below to get in contact with us! We can also be reached via email at:
             <span class="md:text-xl text-blue-300">
-              <faicon :icon="['fas','envelope']" /> contact@prideconcretelifting.com</span> or via telephone at:
+              <faicon class="w-6 h-6" :icon="['fas','envelope']" /> contact@prideconcretelifting.com</span> or via telephone at:
             <span class="md:text-xl text-blue-300"> <a href="tel:817-888-6254">
-                <faicon :icon="['fas','phone']" /> 817-888-6254</a></span>.
+                <faicon class="w-6 h-6" :icon="['fas','phone']" /> 817-888-6254</a></span>.
           </p>
         </div>
 
@@ -224,7 +224,7 @@
             .then(document.getElementById("myForm").innerHTML = `
             <div class="flex flex-col w-full mb-4 text-left p-4 lg:text-center">
               <h1 id="contact" class="mb-2 text-3xl font-bold text-black tracking-tighter lg:text-5xl md:text-4xl">
-                <faicon :icon="['fas','satellite-dish']" />  Contact Form Submitted!
+                <faicon class="w-6 h-6" :icon="['fas','satellite-dish']" />  Contact Form Submitted!
               </h1>
               <p class="mt-4 text-lg tracking-wide text-black">
                 Thank you for reaching out to us - we will contact you as soon as we are able.

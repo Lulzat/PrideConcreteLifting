@@ -17,7 +17,7 @@
             <span class="inline-flex justify-center w-full mx-auto mt-2 mr-2 sm:ml-auto sm:mt-0">
                 <a href="https://www.facebook.com/wenmill21/" class="mx-4 text-gray-500 hover:text-blue-500">
                     Visit Us On Facebook
-                    <faicon size="lg" :icon="['fab','facebook-square']" />
+                    <faicon class="w-6 h-6" size="lg" :icon="['fab','facebook-square']" />
                 </a>
             </span>
         </div>
