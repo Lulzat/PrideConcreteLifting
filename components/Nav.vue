@@ -30,10 +30,10 @@
     <ul class="hidden md:flex flex-col">
       <li><a class="items-center py-3 mt-2 text-base font-normal tracking-tight text-white lg:mx-8 md:mt-0 md:ml-4"
           href="#contact">
-          <fa :icon="['fas','envelope']" /> <strong>Send us an Email</strong>: contact@prideconcretelifting.com</a></li>
+          <faicon :icon="['fas','envelope']" /> <strong>Send us an Email</strong>: contact@prideconcretelifting.com</a></li>
       <li><a class="items-center py-3 mt-2 text-base font-normal tracking-tight text-white lg:mx-8 md:mt-0 md:ml-4"
           href="tel:817-888-6254">
-          <fa :icon="['fas','phone']" /> <strong>Give us a Call</strong>: 817-888-6254</a></li>
+          <faicon :icon="['fas','phone']" /> <strong>Give us a Call</strong>: 817-888-6254</a></li>
     </ul>
 
     <a id="burger" :class="isOpen ? 'toggled' : ''"
@@ -58,19 +58,19 @@
       <span class="mt-2"><PrimaryLogo /></span>
       <span @click="isOpen = false"
         class="flex mt-4 pt-4 pb-4 align-center font-bold text-lg hover:bg-blue-800 text-white ">
-       <a href="#how-it-works" class="ml-6 w-full"><fa class="w-6 h-6 mr-2" :icon="['fas','project-diagram']" />
+       <a href="#how-it-works" class="ml-6 w-full"><faicon class="w-6 h-6 mr-2" :icon="['fas','project-diagram']" />
         How It Works</a></span>
       <span @click="isOpen = false"
         class="flex pt-4 pb-4 align-center font-bold text-lg hover:bg-blue-800 text-white ">
-        <a href="#about" class="ml-6 w-full"><fa class="w-6 h-6 mr-2" :icon="['fas','id-card']" />
+        <a href="#about" class="ml-6 w-full"><faicon class="w-6 h-6 mr-2" :icon="['fas','id-card']" />
         About Us</a></span>
       <span @click="isOpen = false"
         class="flex pt-4 pb-4 align-center font-bold text-lg hover:bg-blue-800 text-white ">
-        <a href="#contact" class="ml-6 w-full"><fa class="w-6 h-6 mr-2" :icon="['fas','paper-plane']" />
+        <a href="#contact" class="ml-6 w-full"><faicon class="w-6 h-6 mr-2" :icon="['fas','paper-plane']" />
         Contact</a></span>
       <span @click="isOpen = false"
         class="flex pt-4 pb-4 flex-col justify-center font-bold text-lg hover:bg-blue-800 text-white ">
-        <span><fa class="w-6 h-6 ml-6 mr-2" :icon="['fas','tools']" />Areas of Expertise</span>
+        <span><faicon class="w-6 h-6 ml-6 mr-2" :icon="['fas','tools']" />Areas of Expertise</span>
         <ul class="w-full opacity-100 text-white group-hover:bg-blue-800 group-hover:opacity-100 transition duration-500 ease-in-out">
           <li class=""><a class="text-lg font-medium hover:bg-white hover:text-blue-800 py-2 px-4 block whitespace-no-wrap" href="/Driveways"><span class="ml-7">Driveways</span></a></li>
           <li class=""><a class="text-lg font-medium hover:bg-white hover:text-blue-800 py-2 px-4 block whitespace-no-wrap" href="/Pooldecks"><span class="ml-7">Pooldecks</span></a></li>

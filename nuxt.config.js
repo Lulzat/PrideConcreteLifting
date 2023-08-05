@@ -33,41 +33,6 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
-    ['nuxt-fontawesome', {
-      component: 'fa', //customize component name
-      imports: [{
-          set: '@fortawesome/free-solid-svg-icons',
-          icons: ['faPhone']
-          },
-          {set: '@fortawesome/free-solid-svg-icons',
-          icons: ['faEnvelope']
-          },
-          {set: '@fortawesome/free-solid-svg-icons',
-          icons: ['faPaperPlane']
-          },
-          {set: '@fortawesome/free-solid-svg-icons',
-          icons: ['faTools']
-          },
-          {set: '@fortawesome/free-solid-svg-icons',
-          icons: ['faProjectDiagram']
-          },
-          {set: '@fortawesome/free-solid-svg-icons',
-          icons: ['faIdCard']
-          },
-          {set: '@fortawesome/free-solid-svg-icons',
-          icons: ['faCheck']
-          },
-          {set: '@fortawesome/free-solid-svg-icons',
-          icons: ['faSatelliteDish']
-          },
-          {set: '@fortawesome/free-brands-svg-icons',
-          icons: ['faFacebookSquare']
-          },
-          {set: '@fortawesome/free-brands-svg-icons',
-          icons: ['faLinkedin']
-          },
-      ]
-   }]
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules

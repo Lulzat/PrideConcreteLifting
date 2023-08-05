@@ -23,7 +23,7 @@
           <div class="flex flex-col mt-8 md:flex-row">
             <a href="#contact"><button
                 class="group butt inline-flex items-center px-4 py-3 mt-2 text-white transition-all duration-500 ease-in-out transform bg-black rounded-lg focus:ring-2 ring-offset-current ring-offset-2 hover:bg-blue-900 focus:outline-none">
-                <fa
+                <faicon
                   class="group-hover:filter group-hover:transform group-hover:drop-shadow-lg group-hover:scale-150 transition-all duration-500 ease-in-out w-6 h-6"
                   :icon="['fas','paper-plane']" />
                 <span class="flex flex-col items-start ml-4 leading-none">
@@ -116,16 +116,16 @@
               </p>
               <p class="flex items-center mb-2 text-gray-600 "><span
                   class="inline-flex items-center justify-center flex-shrink-0 w-6 h-6 mr-2 rounded-full">
-                  <fa class="w-6 h-6" :icon="['fas','check']" />
+                  <faicon class="w-6 h-6" :icon="['fas','check']" />
                 </span> Driveways, Sidewalks, Patios, and Pool Decks.</p>
               <p class="flex items-center mb-2 text-gray-600 ">
                 <span class="inline-flex items-center justify-center flex-shrink-0 w-6 h-6 mr-2 rounded-full">
-                  <fa class="w-6 h-6" :icon="['fas','check']" />
+                  <faicon class="w-6 h-6" :icon="['fas','check']" />
                 </span> Highways, Streets, Bridges.
               </p>
               <p class="flex items-center mb-6 text-gray-600">
                 <span class="inline-flex items-center justify-center flex-shrink-0 w-6 h-6 mr-2 rounded-full">
-                  <fa class="w-6 h-6" :icon="['fas','check']" />
+                  <faicon class="w-6 h-6" :icon="['fas','check']" />
                 </span> Airport Runways, Racetracks, Bulkheads and Seawalls.
               </p>
             </div>
@@ -265,9 +265,9 @@
           <p class="mb-8 md:w-1/2 md:px-10 mt-4 mx-auto text-lg leading-snug tracking-tight text-gray-300">
             Fill out the form below to get in contact with us! We can also be reached via email at:
             <span class="md:text-xl text-blue-300">
-              <fa :icon="['fas','envelope']" /> contact@prideconcretelifting.com</span> or via telephone at:
+              <faicon :icon="['fas','envelope']" /> contact@prideconcretelifting.com</span> or via telephone at:
             <span class="md:text-xl text-blue-300"> <a href="tel:817-888-6254">
-                <fa :icon="['fas','phone']" /> 817-888-6254</a></span>.
+                <faicon :icon="['fas','phone']" /> 817-888-6254</a></span>.
           </p>
         </div>
 
@@ -333,7 +333,7 @@
             <!-- SUBMIT -->
             <button type="submit" name="button" class="w-full butt py-3 font-semibold text-white transition duration-500 ease-in-out transform bg-blue-900 border-blue-600 rounded-sm text-base focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:bg-blue-800 ">
               Submit
-              <fa
+              <faicon
                 class="group-hover:filter group-hover:transform group-hover:drop-shadow-lg group-hover:scale-150 transition-all duration-500 ease-in-out w-6 h-6"
                 :icon="['fas','paper-plane']" />
             </button>
@@ -410,7 +410,7 @@
             .then(document.getElementById("myForm").innerHTML = `
             <div class="flex flex-col w-full mb-4 text-left p-4 lg:text-center">
               <h1 id="contact" class="mb-2 text-3xl font-bold text-black tracking-tighter lg:text-5xl md:text-4xl">
-                <fa :icon="['fas','satellite-dish']" />  Contact Form Submitted!
+                <faicon :icon="['fas','satellite-dish']" />  Contact Form Submitted!
               </h1>
               <p class="mt-4 text-lg tracking-wide text-black">
                 Thank you for reaching out to us - we will contact you as soon as we are able.
