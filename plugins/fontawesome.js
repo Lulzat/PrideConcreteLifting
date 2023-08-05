@@ -14,7 +14,7 @@ library.add(fas)
 library.add(fab)
 
 // Register the component globally
-Vue.component('<faicon', FontAwesomeIcon)
+Vue.component('faicon', FontAwesomeIcon)
 
 
 // Modify nuxt.config.js adding to the `css` and `plugins` sections.
